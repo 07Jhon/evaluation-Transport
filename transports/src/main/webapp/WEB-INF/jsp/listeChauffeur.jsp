@@ -1,6 +1,6 @@
 <%@page import=" java.text.*, java.util.*"%>
 <%@ page
-        import="com.fasterxml.jackson.databind.JsonNode, java.util.Iterator ,evaluation.chauffeur.Chauffeur"%>
+        import="com.fasterxml.jackson.databind.JsonNode, java.util.Iterator ,evaluation.transports.utilisateur.User"%>
 <%
     String titre = (request.getAttribute("nom")!=null) ? (String) request.getAttribute("nom") : "";
     JsonNode creds = (JsonNode) session.getAttribute("creds");
